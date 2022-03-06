@@ -40,7 +40,7 @@ void System::process_main_option(int& option)
 	case 3: {
 		print_cancel_vote();
 	}; break;
-	case 0: {
+	case 4: {
 		exit(0);
 	}; break;
 	default: {
@@ -57,7 +57,7 @@ void System::print_main_menu()
 	printf("\n 1. Vote");
 	printf("\n 2. View results");
 	printf("\n 3. Cancel your vote");
-	printf("\n 0. Exit\n");
+	printf("\n 4. Exit\n");
 
 	int choice;
 
